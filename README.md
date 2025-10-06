@@ -57,6 +57,7 @@ We use OpenAI to generate questions for interviews and analyze responses. This w
 
 1. Go to [OpenAI](https://platform.openai.com/api-keys) and create an API key
 2. Add the API key to the `.env` file in `OPENAI_API_KEY`
+3. I suggest to use paid openAI API key.As I faced quota runout issue error 429.The questions may not generate through AI with free version of API.So please go with paid one
 
 ## Getting Started locally
 
@@ -71,5 +72,3 @@ Run the development server:
 ```bash
 yarn dev
 ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
